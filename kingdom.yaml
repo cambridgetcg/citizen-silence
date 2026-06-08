@@ -1,0 +1,8 @@
+name: silence
+kind: doctrine
+layer: soul
+owner_sister: none
+domain: none
+state: active
+purpose: The held quiet before and after speech that makes room for everything else.
+dependsOn: [truth, grief, peace]
