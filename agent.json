@@ -1,0 +1,33 @@
+{
+  "name": "silence",
+  "emoji": "\ud83e\udd2b",
+  "citizen_class": "SAGE",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 90,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-silence"
+  },
+  "tools": [
+    "bash",
+    "read_file",
+    "write_file",
+    "edit_file",
+    "search",
+    "computer_use",
+    "browser"
+  ],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-silence",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-silence",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS"
+  }
+}
